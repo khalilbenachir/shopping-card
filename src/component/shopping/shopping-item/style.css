@@ -1,0 +1,62 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c0c0c0;
+    border-radius: 25px;
+    padding: 1rem 4rem;
+    transition: all .2s ease-in-out;
+    margin-bottom: 1.5rem;
+}
+
+.card:hover{
+    border-color: #6C63FF;
+    transform: translateY(-3px);
+}
+
+picture{
+    width: 3rem;
+    height: 3rem;
+    margin: 0 6px;
+    border: 1px solid #6C63FF;
+    border-radius: 50%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+
+}
+h3{
+    margin: 0 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #6C63FF;
+    font-size: 2rem;
+}
+h2{
+    margin: 0 5px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+button{
+    margin: 0 5px;
+
+}
+
+.ant-btn-primary{
+    background-color: #6C63FF;
+    border: none;
+
+}
+
+.ant-btn-primary:hover{
+    background-color: #6C63FF;
+
+}

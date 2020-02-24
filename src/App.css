@@ -1,0 +1,49 @@
+@import '~antd/dist/antd.css';
+
+
+.container {
+ display: grid;
+ grid-template-rows: 10vh 90vh;
+}
+
+.title{
+  background-color: #6C63FF;
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  color: white;
+  border-radius: 0;
+  border-bottom: 4px solid rgb(73, 64, 247);
+
+}
+
+.shopping-card{
+  grid-row: 2/3;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+
+}
+
+.shopping-items{
+  display: flex;
+  flex-direction: column;
+
+  grid-column: 1/2;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid rgb(73, 64, 247);
+
+}
+
+.shopping-basket{
+  display: flex;
+  grid-column: 2/3;
+}
