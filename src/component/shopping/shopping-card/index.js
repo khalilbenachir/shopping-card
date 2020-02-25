@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.css";
-import {connect} from 'react-redux'
 
-function ShoppingCard(props) {
+export default function ShoppingCard(props) {
   return (
     <div className="container-basket">
       <h1>Basket</h1>
@@ -15,12 +14,3 @@ function ShoppingCard(props) {
 }
 
 
-
-const mapStateToProps = state => ({
-    total: state.shopping.total,
-    productPurchased:state.shopping.productPurchased
-  });
-  
-  export default connect(
-    mapStateToProps
-  )(ShoppingCard);
